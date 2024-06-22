@@ -1,0 +1,278 @@
+/* CSS RESET */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 1px solid; */
+}
+
+/* NAVBAR */
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 12px;
+    color:black;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px 12px;
+    color:black;
+}
+
+header::before {
+    content: "";
+    background: url(/img/banner1.jpg)no-repeat center center/cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    height: 750px;
+}
+
+.bannercolor::before {
+    content: "";
+    background: linear-gradient(75deg, rgb(22 37 103 / 84%) 10%, rgb(230 2 100 / 37%));
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.websitename {
+    width: 30vw;
+}
+
+/* HOME{  */
+
+section {
+    height: 683.6px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 60vw; */
+    align-items: center;
+}
+
+.sectionh2 {
+    font-size: 40px;
+    width: 76vw;
+    padding-bottom: 20px;
+    /* padding: 0 20px; */
+
+}
+
+.sectionp {
+    font-size: 26px;
+    /* flex-direction: column; */
+    width: 76vw;
+}
+
+.btn button {
+    padding: 14px 26px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 350;
+
+}
+
+.btn2 {
+    width: 76vw;
+    margin-top: 50px;
+}
+
+/* SERVICES  */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(208, 206, 205, 0.241);
+}
+
+.servicesheading {
+    text-align: center;
+}
+
+.servicesheading h2 {
+    font-size: 2.5rem;
+    margin-top: 60px;
+}
+
+.servicesheading p {
+    font-size: 1.4rem;
+    margin: 12px 0;
+}
+
+.btn3 button {
+    background-color: rgb(223, 22, 82);
+    color: white;
+
+}
+
+.btn3 button:hover {
+    color: rgb(223, 22, 82);
+    background-color: white;
+    border: 1px solid rgb(223, 22, 82);
+}
+
+.btn3{
+    padding-bottom: 60px;
+}
+
+/* SERVICES  */
+
+.servicesr1 {
+    display: flex;
+}
+
+.servicesr2 {
+    display: flex;
+}
+
+.servicesr1c1 {
+    display: flex;
+    margin: 18px 18px;
+    padding: 55px 55px;
+    background-color: white;
+    box-shadow: 0 3px 3px 1px rgba(226, 224, 223, 0.479);
+}
+
+.servicesr1c2 {
+    display: flex;
+    margin: 18px 18px;
+    padding: 55px 55px;
+    background-color: white;
+    box-shadow: 0 3px 3px 1px rgba(226, 224, 223, 0.479);
+}
+
+.servicesr2c1 {
+    display: flex;
+    margin: 18px 18px;
+    padding: 55px 55px;
+    background-color: white;
+    box-shadow: 0 3px 3px 1px rgba(226, 224, 223, 0.479);
+}
+
+.servicesr2c2 {
+    display: flex;
+    margin: 18px 18px;
+    padding: 55px 55px;
+    background-color: white;
+    box-shadow: 0 3px 3px 1px rgba(226, 224, 223, 0.479);
+
+}
+
+.servicestype {
+    width: 74vw;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.icons i {
+    font-size: 1.8rem;
+    margin-right: 18px;
+    background: linear-gradient(75deg, rgb(22 37 103 / 84%) 10%, rgba(230, 2, 101, 0.652));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.servicesr1 p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.servicesr2 p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.servicesr1 h3,
+.servicesr2 h3 {
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.servicesr1 a,
+.servicesr2 a{
+    text-decoration: none;
+}
+
+/* CONTATC NIFO  */
+.contact{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(75deg, rgba(22, 37, 103, 0.951) 10%, rgba(230, 2, 101, 0.745));
+    color: white;
+}
+
+.contact>div{
+    margin: 65px 45px;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 160;
+    font-size: 0.9rem;
+    display: block;
+    margin: 12px 12px;
+}
+
+.contact ul li{
+    list-style: none;
+}
+
+.contact h3{
+    margin:25px 12px ;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contact .lastcol ul li a{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+/* FOOTER  */
+
+footer .footer{
+    padding: 20px 0;
+    width: 75vw;
+    /* font-weight: 400; */
+
+    
+}
+
+footer .footer span{
+    font-weight: 500;
+    font-size: 0.93rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
